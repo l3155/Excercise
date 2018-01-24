@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>demo1</title>
+  <script src="../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+  <p>{{ message }}</p>
+</div>
+<div id="app2">
+  <span v-bind:title="message">
+    鼠标悬停后查看绑定信息
+  </span>
+</div>
+
+<div id="app3">
+  <p v-if="seen">现在看到我了</p>
+</div>
+
+
+ <script src="../js/demo1.js"></script>
+</body>
+</html>
+
