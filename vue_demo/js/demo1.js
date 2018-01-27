@@ -1,9 +1,9 @@
-var app = new Vue({
+var app = new Vue ({
   el: '#app',
   data: {
     message: 'Hello Vue!'
   }
-})
+});
 
 var app2 = new Vue({
   el:'#app2',
@@ -15,6 +15,6 @@ var app2 = new Vue({
 var app3 = new Vue({
   el:'#app3',
   data:{
-    seen:true
+    seen:false
   }
 });
